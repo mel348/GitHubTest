@@ -18,6 +18,10 @@ namespace GitHubTest.Controllers
             return View();
         }
 
+        public IActionResult testingGit()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
